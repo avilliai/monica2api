@@ -47,6 +47,9 @@ python -m camoufox fetch
 # 使用标准 Chromium 时：python -m playwright install chromium
 ~~~
 
+### GOOGLE_SPEECH_API_KEY
+过人机验证需要GOOGLE_SPEECH_API_KEY     
+怎么获取问你自己的ai，获取后填入.env的对应配置项，否则无法过验证
 ## Cookie结构
 
 data/cookies.json：
