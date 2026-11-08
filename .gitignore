@@ -1,0 +1,121 @@
+﻿# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Backup & Temporary files
+*.bak
+*.old
+*.orig
+*.tmp
+*.temp
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+env.bak/
+
+# ==========================================
+# Testing & Coverage
+# ==========================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Project Specific Sensitive Data & Storage
+# ==========================================
+# Data directory files (keep folder structure via .keep)
+data/*
+!data/.keep
+
+# Registration artifacts, accounts, and checkpoints
+register/monica_accounts.json
+register/registration_checkpoints.json
+register/artifacts/
+
+# Outlook / Email credential dumps and batch files
+OUT-*.txt
+*_Filtered.txt
+*_filtered.txt
+*.account.txt
+accounts.txt
+Webshare*proxies.txt
+
+# Temporary scraped / probe assets
+scripts/home.html
+
+# ==========================================
+# Logs & Databases
+# ==========================================
+*.log
+logs/
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+outlook.txt
+outlook.cleaned.txt
+.env
